@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tview"
+        android:text="Dinner Decider"
+        android:textSize="25sp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+
+
+    <ImageView
+        android:layout_width="167dp"
+        android:layout_height="151dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/dd_logo"></ImageView>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <EditText
+        android:id="@+id/addNewFood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="add new food..."
+        android:textSize="20sp">
+
+    </EditText>
+
+</LinearLayout>
